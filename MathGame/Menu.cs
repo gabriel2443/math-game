@@ -41,7 +41,7 @@ Q - Quit the program");
                         break;
 
                     case "s":
-                        gameEngine.Substraction("Substraction game selected");
+                        gameEngine.Subtraction("Substraction game selected");
                         break;
 
                     case "m":

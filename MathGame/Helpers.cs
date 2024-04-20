@@ -50,7 +50,7 @@
             while (string.IsNullOrEmpty(result) || !Int32.TryParse(result, out _))
             {
                 Console.WriteLine("Input must be a integer");
-                Console.ReadLine();
+                result = Console.ReadLine();
             }
             return result;
         }

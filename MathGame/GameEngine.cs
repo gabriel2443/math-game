@@ -40,7 +40,7 @@
             Helpers.AddToHistory(score, "Addition");
         }
 
-        internal void Substraction(string message)
+        internal void Subtraction(string message)
         {
             Console.WriteLine(message);
             Console.Clear();
@@ -72,7 +72,7 @@
                 }
             }
 
-            Helpers.AddToHistory(score, "Substraction");
+            Helpers.AddToHistory(score, "Subtraction");
         }
 
         internal void Multiplication(string message)
